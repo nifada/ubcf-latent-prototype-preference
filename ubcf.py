@@ -66,7 +66,7 @@ METHODS = {
 }
 
 # Clustering settings that are shared by all runs of the paper.
-SOM_LEARNING_RATE = 0.5      # value used in the runs behind the reported results
+SOM_LEARNING_RATE = 0.5      # learning rate of the SOM runs; the results of the SOM methods vary with the library versions
 SOM_MAX_ITER = 1000
 SOM_SEED = 1
 FCM_FUZZIFIER = 2.0
